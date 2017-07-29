@@ -1,6 +1,8 @@
 #  ARKit Torque Physics Tutorial
 
-A tutorial for demoing how to use simple physics to spin an object on it's axis. Here we have the planet Mars placed 0.5 meters in front of the camera.
+A tutorial for demoing how to use simple physics to spin an object on it's axis. Here we have the planet Mars placed 0.5 meters in front of the camera. Here is what the final product will look like:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HKnYzqgH-yM" target="_blank"><img src="http://img.youtube.com/vi/HKnYzqgH-yM/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ```swift
 let marsNode=SCNNode(geometry: SCNSphere(radius: 0.1))
