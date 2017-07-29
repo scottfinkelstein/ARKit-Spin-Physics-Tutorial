@@ -24,10 +24,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene()
+        
+        let marsNode=SCNNode(geometry: SCNSphere(radius: 0.1))
+        
+        marsNode.geometry?.materials.first?.diffuse.contents = UIImage(named: "mars_material")
+        
+        marsNode.position = SCNVector3(0, 0, -0.5)
+        marsNode.name = "mars"
+        
+        marsNode.physicsBody=SCNPhysicsBody(type: .dynamic, shape: nil)
+        marsNode.physicsBody?.isAffectedByGravity = false
+        marsNode.physicsBody?.mass = 200
+        
+        
+        scene.rootNode.addChildNode(marsNode)
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        // Set up a pan gesture recognizer and add to the sceneView.
+        let pan = UIPanGestureRecognizer()
+        pan.addTarget(self, action: #selector(didPan))
+        sceneView.addGestureRecognizer(pan)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -51,7 +71,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
-
+    
+    @objc func didPan(_ sender: UIPanGestureRecognizer) {
+    
+        let tapPoint=sender.location(in: sceneView)
+        guard let hit=sceneView.hitTest(tapPoint, options: nil).first else { return }
+        let node = hit.node
+        
+        if node.name == "mars" {
+            let velocity = sender.velocity(in: sceneView)
+            let impulseFactor = velocity.x / 10000.0
+            print("Factor: ", impulseFactor)
+            
+            node.physicsBody?.applyTorque(SCNVector4Make(0, 1, 0, Float(impulseFactor)), asImpulse: true)
+        }
+    }
+    
     // MARK: - ARSCNViewDelegate
     
 /*

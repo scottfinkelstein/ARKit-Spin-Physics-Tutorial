@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D26569C11F2CD2BB00B0ED87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */; };
-		D26569C31F2CD2BB00B0ED87 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D26569C21F2CD2BB00B0ED87 /* art.scnassets */; };
 		D26569C51F2CD2BB00B0ED87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26569C41F2CD2BB00B0ED87 /* ViewController.swift */; };
 		D26569C81F2CD2BB00B0ED87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26569C61F2CD2BB00B0ED87 /* Main.storyboard */; };
 		D26569CA1F2CD2BB00B0ED87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */; };
@@ -16,9 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorqueSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D246B7981F2CE85A00F72715 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D26569BD1F2CD2BB00B0ED87 /* ARKitSpinPhysicsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitSpinPhysicsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D26569C21F2CD2BB00B0ED87 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		D26569C41F2CD2BB00B0ED87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D26569C71F2CD2BB00B0ED87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		D26569B41F2CD2BB00B0ED87 = {
 			isa = PBXGroup;
 			children = (
+				D246B7981F2CE85A00F72715 /* README.md */,
 				D26569BF1F2CD2BB00B0ED87 /* TorqueSpin */,
 				D26569BE1F2CD2BB00B0ED87 /* Products */,
 			);
@@ -48,7 +48,7 @@
 		D26569BE1F2CD2BB00B0ED87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */,
+				D26569BD1F2CD2BB00B0ED87 /* ARKitSpinPhysicsTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */,
-				D26569C21F2CD2BB00B0ED87 /* art.scnassets */,
 				D26569C41F2CD2BB00B0ED87 /* ViewController.swift */,
 				D26569C61F2CD2BB00B0ED87 /* Main.storyboard */,
 				D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */,
@@ -70,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D26569BC1F2CD2BB00B0ED87 /* TorqueSpin */ = {
+		D26569BC1F2CD2BB00B0ED87 /* ARKitSpinPhysicsTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "TorqueSpin" */;
+			buildConfigurationList = D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "ARKitSpinPhysicsTutorial" */;
 			buildPhases = (
 				D26569B91F2CD2BB00B0ED87 /* Sources */,
 				D26569BA1F2CD2BB00B0ED87 /* Frameworks */,
@@ -82,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = TorqueSpin;
+			name = ARKitSpinPhysicsTutorial;
 			productName = TorqueSpin;
-			productReference = D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */;
+			productReference = D26569BD1F2CD2BB00B0ED87 /* ARKitSpinPhysicsTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "TorqueSpin" */;
+			buildConfigurationList = D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "ARKitSpinPhysicsTutorial" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D26569BC1F2CD2BB00B0ED87 /* TorqueSpin */,
+				D26569BC1F2CD2BB00B0ED87 /* ARKitSpinPhysicsTutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +124,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26569C31F2CD2BB00B0ED87 /* art.scnassets in Resources */,
 				D26569CD1F2CD2BB00B0ED87 /* LaunchScreen.storyboard in Resources */,
 				D26569CA1F2CD2BB00B0ED87 /* Assets.xcassets in Resources */,
 				D26569C81F2CD2BB00B0ED87 /* Main.storyboard in Resources */,
@@ -280,7 +278,7 @@
 				DEVELOPMENT_TEAM = 3V65CUJ945;
 				INFOPLIST_FILE = TorqueSpin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scottfinkelstein.TorqueSpin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARKitSpinPhysicsTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,7 +292,7 @@
 				DEVELOPMENT_TEAM = 3V65CUJ945;
 				INFOPLIST_FILE = TorqueSpin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scottfinkelstein.TorqueSpin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARKitSpinPhysicsTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "TorqueSpin" */ = {
+		D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "ARKitSpinPhysicsTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D26569CF1F2CD2BB00B0ED87 /* Debug */,
@@ -313,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "TorqueSpin" */ = {
+		D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "ARKitSpinPhysicsTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D26569D21F2CD2BB00B0ED87 /* Debug */,
