@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26569C11F2CD2BB00B0ED87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */; };
+		D26569C31F2CD2BB00B0ED87 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D26569C21F2CD2BB00B0ED87 /* art.scnassets */; };
+		D26569C51F2CD2BB00B0ED87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26569C41F2CD2BB00B0ED87 /* ViewController.swift */; };
+		D26569C81F2CD2BB00B0ED87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26569C61F2CD2BB00B0ED87 /* Main.storyboard */; };
+		D26569CA1F2CD2BB00B0ED87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */; };
+		D26569CD1F2CD2BB00B0ED87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26569CB1F2CD2BB00B0ED87 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorqueSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D26569C21F2CD2BB00B0ED87 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D26569C41F2CD2BB00B0ED87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D26569C71F2CD2BB00B0ED87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D26569CC1F2CD2BB00B0ED87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D26569CE1F2CD2BB00B0ED87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26569BA1F2CD2BB00B0ED87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26569B41F2CD2BB00B0ED87 = {
+			isa = PBXGroup;
+			children = (
+				D26569BF1F2CD2BB00B0ED87 /* TorqueSpin */,
+				D26569BE1F2CD2BB00B0ED87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26569BE1F2CD2BB00B0ED87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26569BF1F2CD2BB00B0ED87 /* TorqueSpin */ = {
+			isa = PBXGroup;
+			children = (
+				D26569C01F2CD2BB00B0ED87 /* AppDelegate.swift */,
+				D26569C21F2CD2BB00B0ED87 /* art.scnassets */,
+				D26569C41F2CD2BB00B0ED87 /* ViewController.swift */,
+				D26569C61F2CD2BB00B0ED87 /* Main.storyboard */,
+				D26569C91F2CD2BB00B0ED87 /* Assets.xcassets */,
+				D26569CB1F2CD2BB00B0ED87 /* LaunchScreen.storyboard */,
+				D26569CE1F2CD2BB00B0ED87 /* Info.plist */,
+			);
+			path = TorqueSpin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26569BC1F2CD2BB00B0ED87 /* TorqueSpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "TorqueSpin" */;
+			buildPhases = (
+				D26569B91F2CD2BB00B0ED87 /* Sources */,
+				D26569BA1F2CD2BB00B0ED87 /* Frameworks */,
+				D26569BB1F2CD2BB00B0ED87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorqueSpin;
+			productName = TorqueSpin;
+			productReference = D26569BD1F2CD2BB00B0ED87 /* TorqueSpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26569B51F2CD2BB00B0ED87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Scott Finkelstein";
+				TargetAttributes = {
+					D26569BC1F2CD2BB00B0ED87 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "TorqueSpin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26569B41F2CD2BB00B0ED87;
+			productRefGroup = D26569BE1F2CD2BB00B0ED87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26569BC1F2CD2BB00B0ED87 /* TorqueSpin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26569BB1F2CD2BB00B0ED87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26569C31F2CD2BB00B0ED87 /* art.scnassets in Resources */,
+				D26569CD1F2CD2BB00B0ED87 /* LaunchScreen.storyboard in Resources */,
+				D26569CA1F2CD2BB00B0ED87 /* Assets.xcassets in Resources */,
+				D26569C81F2CD2BB00B0ED87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26569B91F2CD2BB00B0ED87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26569C51F2CD2BB00B0ED87 /* ViewController.swift in Sources */,
+				D26569C11F2CD2BB00B0ED87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D26569C61F2CD2BB00B0ED87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26569C71F2CD2BB00B0ED87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26569CB1F2CD2BB00B0ED87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26569CC1F2CD2BB00B0ED87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26569CF1F2CD2BB00B0ED87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D26569D01F2CD2BB00B0ED87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26569D21F2CD2BB00B0ED87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V65CUJ945;
+				INFOPLIST_FILE = TorqueSpin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottfinkelstein.TorqueSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26569D31F2CD2BB00B0ED87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V65CUJ945;
+				INFOPLIST_FILE = TorqueSpin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottfinkelstein.TorqueSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26569B81F2CD2BB00B0ED87 /* Build configuration list for PBXProject "TorqueSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26569CF1F2CD2BB00B0ED87 /* Debug */,
+				D26569D01F2CD2BB00B0ED87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26569D11F2CD2BB00B0ED87 /* Build configuration list for PBXNativeTarget "TorqueSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26569D21F2CD2BB00B0ED87 /* Debug */,
+				D26569D31F2CD2BB00B0ED87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26569B51F2CD2BB00B0ED87 /* Project object */;
+}
