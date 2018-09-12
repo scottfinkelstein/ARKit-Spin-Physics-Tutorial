@@ -20,7 +20,7 @@ marsNode.physicsBody=SCNPhysicsBody(type: .dynamic, shape: nil)
 marsNode.physicsBody?.isAffectedByGravity = false
 marsNode.physicsBody?.mass = 200
 ```
-Finally, in the Pan Gesture Recognizer method, we use a simple calculation based on the the velocity of the pan gesture to determine the amount of torque we want to apply to the object
+Finally, in the Pan Gesture Recognizer method, we use a simple calculation based on the velocity of the pan gesture to determine the amount of torque we want to apply to the object
 
 ```swift
 @objc func didPan(_ sender: UIPanGestureRecognizer) {
